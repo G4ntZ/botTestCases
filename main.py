@@ -62,5 +62,5 @@ def generateReport(jiras, cookies):
 if __name__ == '__main__':
     std = SourceDataReader('jiras.csv')
     jiras = std.read()
-    cookies = login('prov_zt', 'd3liverance')
+    cookies = login('prov_zt', '')
     generateReport(jiras, cookies)
